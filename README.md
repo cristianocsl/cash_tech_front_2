@@ -15,7 +15,7 @@ quasar dev
 ### Acesse o back-end no link abaixo e siga as instruções para rodar o projeto localmente
 https://github.com/cristianocsl/cashTech
 
-### Compile o aplicativo para produção
+### Compile o aplicativo para produção (opcional)
 ```bash
 quasar build
 ```
