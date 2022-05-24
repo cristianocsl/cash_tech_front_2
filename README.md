@@ -12,7 +12,7 @@ npm install
 quasar dev
 ```
 
-### Acesse o back-end no link abaixo e siga as instruções para rodar o projeto localmente
+### Acesse o back-end relacionado a este projeto no link abaixo e siga as instruções para rodar o projeto localmente
 https://github.com/cristianocsl/cashTech
 
 ### Compile o aplicativo para produção (opcional)
