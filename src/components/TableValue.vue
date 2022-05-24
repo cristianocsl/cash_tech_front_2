@@ -1,12 +1,30 @@
 <template>
-  <h3>Notas Fiscais</h3>
-  <p>Visualize as notas fiscais que você tem.</p>
   <div class="q-pa-md">
-    <q-table
-      title=""
-      :rows="newRows"
-      :columns="newColumns"
-    ></q-table>
+    <div class="row">
+      <div class="col-2">
+        <img
+          src="../../public/icons/NicePng_dinheiro-png_3289743.png"
+          style="width: 80%; max-width: 80px; min-width: 40px;"
+          alt="Dinheiro - Dinheiro Logo Png@nicepng.com"
+        />
+        <h5>
+          Cash Tech - Solutions
+        </h5>
+      </div>
+      <div class="col-10">
+        <div class="row">
+          <h4>Notas Fiscais</h4>
+        </div>
+        <div class="row">
+          <p>Visualize as notas fiscais que você tem.</p>
+        </div>
+        <q-table
+          title=""
+          :rows="newRows"
+          :columns="newColumns"
+        ></q-table>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -120,6 +138,15 @@ th {
 }
 th, td {
   padding: 0.1em 1em;
+}
+
+.row > div {
+  padding: 10px 15px;
+  background: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.2);
+}
+.row + .row {
+  margin-top: 1rem;
 }
 
 </style>
