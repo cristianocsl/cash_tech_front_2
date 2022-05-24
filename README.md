@@ -1,30 +1,21 @@
-# Cashtech App (cash-tech-front-2)
+# Bem vindo(a) ao Projeto Cashtech App (cash-tech-front-2)
 
-A Quasar Project
+Um Projeto Quasar
 
-## Install the dependencies
+## Instale as dependências
 ```bash
-yarn
-# or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Inicie o App em modo de desenvolvimento
 ```bash
 quasar dev
 ```
 
+### Acesse o back-end no link abaixo e siga as instruções para rodar o projeto localmente
+https://github.com/cristianocsl/cashTech
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-
-### Build the app for production
+### Compile o aplicativo para produção
 ```bash
 quasar build
 ```
